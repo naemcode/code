@@ -8,7 +8,6 @@ def self_num_(num):
     result += num
     
     return result
-print(self_num_(10))
 for i in range(1,10000):
     if self_num_(i) < 10000:
         self_num[self_num_(i)] +=1
@@ -18,3 +17,4 @@ for i in range(1,10000):
     if self_num[i] ==0:
         print(i)
 
+#####set 사용법을 알아두자
